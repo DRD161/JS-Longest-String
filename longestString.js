@@ -10,7 +10,7 @@ function findLongestWord(str) {
   var longest = strSplit.sort(function(x, y) {
     
     /* Returns the length of the 2 function arguments. Depending on the length
-       of each strin, the compare function determines the order of items in the array */
+       of each string, the compare function determines the order of items in the array */
     return y.length - x.length;
 });
   // Returns the longest string starting from the [0] index
